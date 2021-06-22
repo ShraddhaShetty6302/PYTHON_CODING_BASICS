@@ -1,0 +1,7 @@
+if __name__ == '__main__':   
+n = int(input()) 
+arr = sorted(map(int, input().split()))   
+j=max(arr)    
+while(j==max(arr)):        
+     arr.remove(j)    
+print(max(arr))
